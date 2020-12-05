@@ -7,10 +7,9 @@ Python Script to request the API for wheather forecast based on
 
 
 import requests
+# 1.config file consists of the original api_key in it.
+# Get your own api key here :  https://home.openweathermap.org/api_keys
 import config
-
-# 1.API key which is used the grab the data get u r api key here = https://home.openweathermap.org/api_keys
-
 
 class Wheather:
     def __init__(self):
